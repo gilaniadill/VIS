@@ -1,0 +1,28 @@
+body{
+    font-family: "Helvetica", Sans-Serif;
+    color: rgb(255, 220, 24);
+    background-color: linear-gradient(red, orange, yellow, green, blue);;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.btnClass{
+    display: flex;
+    flex-direction: row;
+}
+
+button{
+    margin: 5px 3px 3px 3px;
+}
+a:hover{
+    color: brown;
+}
+.selected {
+    border: 2px solid red;
+}
+
